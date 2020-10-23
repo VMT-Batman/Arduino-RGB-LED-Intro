@@ -6,7 +6,7 @@ The code provided was based off of the code of Matthew L Beckler with small deta
 
 Analog inputs for common cathodes and anodes are both values between 0 and 255 and voltages of 0v to 5v
 
-### Common Anode
+### Common Anode LED
   * *The longest pin on a common anode RGB LED should be connected to 5v pin on the Arduino
 
   * *The other 3 pins (R, G, and B) should be connected to 200 ohm resistors in series*
@@ -26,7 +26,7 @@ analogWrite(blue, blueBrightness);    //sends analog signals to blue LED
 
 ```
 
-### Common Cathode
+### Common Cathode LED
   * *The longest pin on a common cathode RGB LED leads to the GND pin on the Arduino*
 
   * *The other 3 pins (R, G, and B) should be connected to 200 ohm resistors in series (same as the anode)* 
